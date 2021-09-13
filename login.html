@@ -1,0 +1,94 @@
+<html>
+<head>
+<style>
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #D3D3D3;
+}
+
+.active {
+  background-color: #778899;
+ }
+ header {
+ text-align:center;
+ background-color:#A9A9A9;
+ }
+ form {
+ background-color:#B0C4DE;
+ }
+ footer {
+ text-align:center;
+ background-color:#A9A9A9;
+ }
+ </style>
+</head>
+<body>
+<header>
+<h1> Pemrograman WEB </h1>
+ <ul>
+  <li> <a href="beranda.html"> Home </a> </li>
+  <li> <a class="active" href="login.html"> Daftar </a> </li>
+  <li> <a href="#"> Kontak </a> </li>
+ </ul>
+</header>
+<section>
+ <form action="#">
+  <h2> FORM DAFTAR </h2>
+  <img src="images.jpg"> <br> <br>
+  
+  <label> Nama Depan </label> 
+  <input type="text"> 
+  
+  <label> Nama Belakang </label> 
+  <input type="text"> <br> <br>
+  
+  <label for="cars">Tempat Lahir :</label>
+  <select id="cars" name="cars">
+    <option value="Madiun">Madiun</option>
+    <option value="Ngawi">Ngawi</option>
+    <option value="Magetan">Magetan</option>
+    <option value="Nganjuk">Nganjuk</option>
+  </select> <br> <br>
+  
+  <label> Tanggal Lahir : </label>
+  <input type="date"> <br> <br>
+  
+  <label> Jenis Kelamin : </label> 
+  <input type="radio" id="Laki-laki"> 
+  <label> Laki-laki </label>
+  <input type="radio" id="Perempuan">
+  <label> Perempuan </label> <br> <br>
+  
+  <label> Alamat : </label> 
+  <textarea name="message" rows="5"> </textarea>
+  <br><br>
+  
+  <input type="Submit" value=" Simpan ">
+  <input type="reset">  
+ </form>
+ </section>
+ <footer>
+  <p> Created by Dimas Rosyidi </p>
+  <p> XII RPL 1 </p>
+ </footer>
+</body>
+</html>
